@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Local Weather</title>
+    
+    
+    
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+    
+  </head>
+
+  <body>
+
+    <head>
+  <title>Local Weather</title>
+  <script src="http://geoip.nekudo.com/api?callback=foo"></script>
+  <link href="https://fonts.googleapis.com/css?family=Baloo+Tamma|Inconsolata|Indie+Flower" rel="stylesheet">
+</head>
+
+<body class="body">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-3 panel panel-transparent">
+        <div class="panel-heading jumbotron">
+          <div id="currentLocation"></div>
+          <div id="currentWeather"></div>
+        </div>
+        <div class="panel-body jumbotron">
+          <div id="currentWeather"><canvas id="icon1" width="128" height="128"></canvas></div>
+          <div>
+            <p>
+              <span id="currentTemperature"></span><span id="tUnits"></span>
+              <span id="currentTempe"></span><span id="tUnits"></span>
+            </p>
+          </div>
+          <div class="btn-group text-center">
+            <button class="btn-primary" id="btn" type="submit">Celsius/Fahrenheit</button>
+          </div>
+        </div>
+        <div class="credits text-center">
+          <p>CREDITS: Weather Updates provided by <a href="https://forecast.io" class="linkCol">Forecast.io</a></p>
+          <p>Local Weather app created by <a href="#" class="linkCol">Phanindra Maddi</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/najaxjs/1.1.0/najax.min.js'></script>
+<script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+<script src='https://rawgithub.com/darkskyapp/skycons/master/skycons.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+  </body>
+</html>

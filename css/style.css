@@ -1,0 +1,33 @@
+.btn {
+  display: inline-block;
+  margin: auto;
+}
+
+.body {
+  background: radial-gradient(circle, black, #b3b3ff);
+  background-image: url("https://hd.unsplash.com/photo-1446001037989-e9dda9522338");
+  font-family: 'Baloo Tamma', cursive;
+  font-family: 'Indie Flower', cursive;
+  font-family: 'Inconsolata', monospace;
+  font-size: 2.5em;
+  color: white;
+}
+
+.panel-transparent {
+  background: none;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  background-image: url("http://www.screenpaper.ru/images/stories/oboi/textures/2/009763%20(%D0%A1%D0%B8%D0%BD%D0%B8%D0%B9,%20%D1%84%D0%BE%D0%BD,%20%D1%83%D0%B7%D0%BE%D1%80).jpg");
+}
+
+.jumbotron {
+  background: none;
+}
+
+.credits {
+  font-size: 0.5em;
+}
+
+.linkCol {
+  color: #ff471a;
+}
